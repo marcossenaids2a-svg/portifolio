@@ -1,9 +1,9 @@
 @props(['skills' => [], 'projects' => []])
 
 <div class="container mx-auto flex justify-center flex-col items-center my-12 px-4 bg-[#101726] h-full">
-    <h1 class="p-2 text-2xl text-white"> My Last Work</h1>
+    <h1 class="p-2 text-2xl text-white"> Meu primeiro trabalho com Laravel e Tailwind CSS</h1>
     <p class="p-2 text-white">
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Trabalho desenvolvido para a disciplina de Desenvolvimento de Sistemas do curso do SENAI/SESI-024.
     </p>
 
     <nav class="mb-12 transition-all duration-300 ease-in-out" aria-label="Tabs" role="tablist">

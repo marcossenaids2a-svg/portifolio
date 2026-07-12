@@ -7,10 +7,10 @@
         <table class="w-full text-sm text-left bg-slate-950">
             <thead class="text-xs text-white uppercase shadow-none ripple">
             <tr>
-                <th scope="col" class="px-6 py-3">Skills SKU</th>
-                <th scope="col" class="px-6 py-3">Skills Name</th>
-                <th scope="col" class="px-6 py-3">IMAGE</th>
-                <th scope="col" class="px-6 py-3 text-center">Action</th>
+                <th scope="col" class="px-6 py-3">Habilidade SKU</th>
+                <th scope="col" class="px-6 py-3">Nome da Habilidade</th>
+                <th scope="col" class="px-6 py-3">Imagem</th>
+                <th scope="col" class="px-6 py-3 text-center">Ações</th>
             </tr>
             </thead>
             <tbody class="bg-white shadow-2xl">
@@ -26,7 +26,7 @@
                         </tr>
                         @empty
                             <tr>
-                                <td>No DATA</td>
+                                <td>Nenhuma habilidade encontrada</td>
                             </tr>
                     @endforelse
             </tbody>
@@ -35,10 +35,10 @@
             <table class="w-full text-sm text-left bg-slate-950 mt-[130px] ">
             <thead class="text-xs text-white uppercase shadow-none ripple">
             <tr>
-                <th scope="col" class="px-6 py-3">Project SKU</th>
-                <th scope="col" class="px-6 py-3">Project Name</th>
-                <th scope="col" class="px-6 py-3">IMAGE</th>
-                <th scope="col" class="px-6 py-3 text-center">Action</th>
+                <th scope="col" class="px-6 py-3">Projeto SKU</th>
+                <th scope="col" class="px-6 py-3">Nome do Projeto</th>
+                <th scope="col" class="px-6 py-3">Imagem</th>
+                <th scope="col" class="px-6 py-3 text-center">Ação</th>
             </tr>
             </thead>
             <tbody class="bg-white shadow-2xl">
@@ -55,7 +55,7 @@
                         </tr>
                         @empty
                             <tr>
-                                <td>No DATA</td>
+                                <td>Nenhum projeto encontrado</td>
                             </tr>
                     @endforelse
             </tbody>

@@ -18,23 +18,23 @@
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#home" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 relative group">
-                        Home
+                        Começo
                         <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                     </a>
                     <a href="#work" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 relative group">
-                        Work
+                        Trabalho
                         <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                     </a>
                     <a href="#about" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 relative group">
-                        About
+                        Sobre Mim   
                         <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                     </a>
                     <a href="#skills" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 relative group">
-                        Skills
+                        Habilidades
                         <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                     </a>
                     <a href="#contact" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 relative group">
-                        Contact
+                        Contato
                         <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                     </a>
                 </div>
@@ -43,7 +43,7 @@
                 <div class="flex items-center space-x-4">
                     <!-- Contact Button -->
                     <a href="#contact" class="hidden md:block px-6 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-                        Get In Touch
+                        Iniciar Contato
                     </a>
 
                     <!-- Mobile menu button -->
@@ -72,19 +72,19 @@
                         Home
                     </a>
                     <a href="#work" @click="isOpen = false" class="px-4 py-3 text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors duration-300">
-                        Work
+                        work
                     </a>
                     <a href="#about" @click="isOpen = false" class="px-4 py-3 text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors duration-300">
-                        About
+                        about
                     </a>
                     <a href="#skills" @click="isOpen = false" class="px-4 py-3 text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors duration-300">
-                        Skills
+                        skills
                     </a>
                     <a href="#contact" @click="isOpen = false" class="px-4 py-3 text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors duration-300">
-                        Contact
+                        contact
                     </a>
                     <a href="#contact" @click="isOpen = false" class="mx-4 mt-2 px-4 py-3 text-base font-semibold text-center text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
-                        Get In Touch
+                        get in touch
                     </a>
                 </div>
             </div>
@@ -98,45 +98,45 @@
                     <!-- Main Heading -->
                     <div class="mb-2">
             <span class="inline-block px-3 py-1 text-xs font-semibold text-blue-600 bg-blue-100 rounded-full dark:bg-blue-900/30 dark:text-blue-400">
-                Creative Developer
+                Desenvolvedor Web Full Stack
             </span>
                     </div>
 
                     <h1 class="text-4xl font-bold text-gray-900 dark:text-white lg:text-6xl leading-tight">
-                        Crafting Digital
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Experiences</span>
-                        That Inspire
+                        Criando o digiatal <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Experiencias</span>
+                        Que inspiram e encantam.
                     </h1>
 
                     <!-- Description -->
                     <p class="mt-6 text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                        I transform complex problems into elegant, user-centered solutions. With 5+ years of expertise in modern web technologies,
-                        I bridge the gap between design and development to create impactful digital products.
+                        Eu transformo problemas complexos em soluções elegantes e centradas no usuário. Com mais de 7 meses de experiência em tecnologias web modernas,
+                        eu fecho a lacuna entre design e desenvolvimento para criar produtos digitais impactantes.
                     </p>
 
                     <!-- Stats -->
                     <div class="flex gap-6 mt-8">
                         <div>
-                            <p class="text-2xl font-bold text-gray-900 dark:text-white">50+</p>
-                            <p class="text-sm text-gray-500 dark:text-gray-400">Projects</p>
+                            <p class="text-2xl font-bold text-gray-900 dark:text-white">5+</p>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">Projetos</p>
                         </div>
                         <div>
-                            <p class="text-2xl font-bold text-gray-900 dark:text-white">5+</p>
-                            <p class="text-sm text-gray-500 dark:text-gray-400">Years</p>
+                            <p class="text-2xl font-bold text-gray-900 dark:text-white">7+ meses</p>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">de experiência</p>
                         </div>
                         <div>
                             <p class="text-2xl font-bold text-gray-900 dark:text-white">98%</p>
-                            <p class="text-sm text-gray-500 dark:text-gray-400">Satisfaction</p>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">Satisfação</p>
                         </div>
                     </div>
 
                     <!-- CTA Buttons -->
                     <div class="flex flex-col gap-4 mt-8 sm:flex-row">
                         <button class="px-8 py-3 text-sm font-semibold text-white transition-all duration-300 transform bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900">
-                            View My Work
+                            Ver Meu Trabalho
                         </button>
                         <button class="px-8 py-3 text-sm font-semibold text-gray-700 transition-all duration-300 transform bg-white border border-gray-300 rounded-lg shadow-lg dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700 hover:shadow-xl hover:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900">
-                            Download CV
+                            Baixar CV
                         </button>
                     </div>
 
